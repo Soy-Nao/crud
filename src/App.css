@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-form {
+  width: 450px;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.inf {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.inf input {
+  padding: 0.5rem 0;
+  margin: 0.6rem 0;
+  border: none;
+  border-bottom: 1px solid #a2a4a7;
+}
+.inf input:focus {
+  outline: none;
+  font-size: 24px;
+}
+
+.btn-form > button {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: #a4c639;
+  border: none;
+}
+
+.btn-form > button:hover {
+  background-color: #00c16e;
+  
+}
+
+.btn-form > .cancel{
+  background-color: #ff4c4c;
+}
+
+.btn-form > .cancel:hover{
+  background-color: #ff0000;
+}
+
+
+.btn-form {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.title-user {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  color: rgb(112, 108, 108);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+
+ 
+}
+
+.card-li {
+  list-style: none;
+  border: 1px solid #34bf49;
+  padding: 1rem;
+  background-color: #8ec06c;
+
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+}
+
+.card-li:hover {
+  background-color: #34bf49;
+}
+
+.card-header {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #0099e5;
+  color: #fff;
+  align-items: start;
+  
+}
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div5 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.div6 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.btn button{
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-newUser{
+  padding: 1rem;
+}
+
+.btn-newUser > button{
+  display: fixed; ;
+  padding: .5rem;
+  color: #fff;
+  background-color: #00c16e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-newUser > button:hover{
+  background-color: #8ec06c ;
+}
